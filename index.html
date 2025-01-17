@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+2024 All rights reserved - Riccardo Cariboni
+-->
+<html>
+  <head>
+    <title>RC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="terminal">
+      <pre class="ascii-banner" id="term-banner">
+        <span class="line"> ███████████        █████████      █████████    </span>
+        <span class="line">░░███░░░░░███      ███░░░░░███    ███░░░░░███   </span>
+        <span class="line"> ░███    ░███     ███     ░░░    ░███    ░░░    </span>
+        <span class="line"> ░██████████     ░███            ░░█████████    </span>
+        <span class="line"> ░███░░░░░███    ░███             ░░░░░░░░███   </span>
+        <span class="line"> ░███    ░███    ░░███     ███    ███    ░███   </span>
+        <span class="line"> █████   █████ ██ ░░█████████  ██░░█████████  ██</span>
+        <span class="line">░░░░░   ░░░░░ ░░   ░░░░░░░░░  ░░  ░░░░░░░░░  ░░ </span>
+        <span class="line">                                                </span>
+      </pre>
+    </div>
+    <div class="term" id="term">
+      <div>Type "help" for a list of commands.</div>
+      <span><br></span>
+      <div class="term-line">
+        <span class="term-prompt"><b>$</b></span>&nbsp;
+        <input type="text" class="term-command-in" id="command-input" autofocus>
+      </div>
+    </div>
+    <footer>©2018-2025 Riccardo Cariboni - All rights reserved<br>Via Don Minzoni, 6/10 - 23801 Calolziocorte (LC)<br>P.IVA: 03772310136
+    </footer>
+    <script src="scripts/transform.js"></script>
+    <script src="scripts/console.js"></script>
+  </body>
+</html>

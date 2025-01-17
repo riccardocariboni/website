@@ -1,0 +1,73 @@
+/*
+2022 All rights reserved - Riccardo Cariboni
+*/
+/* 
+    Created on : 15 apr 2022, 16:37:10
+    Author     : riccardocariboni
+*/
+header {
+    padding: 1em;
+}
+
+header > h1 {
+    font-family: sans-serif;
+    color: darkseagreen;
+}
+
+body {
+    background-color: #fefefe;
+   }
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 2em;
+    
+    padding: 1em;
+}
+
+.panel {
+    flex-grow: 1;
+    min-height: 50%;
+    min-width: 20%;
+    padding: 1em;
+    opacity: 0.4;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1em;
+}
+
+.panel:hover {
+    border-radius: 1em;
+    background-color: lavender;
+    opacity: 1;
+}
+
+.panel > a {
+    text-decoration: none;
+}
+
+.inner-article > h3 {
+    padding: 0.1em;
+}
+.inner-article:hover > h3 {
+    border-bottom: 1px solid darkseagreen;
+}
+
+details {
+    background-color: #fefefe;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.1em;
+}
+
+footer {
+    border-top: 1px solid darkseagreen; 
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
